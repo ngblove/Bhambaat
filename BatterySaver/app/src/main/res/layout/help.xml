@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#800080">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:textColor="@android:color/white"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:text="1.) Power Saving Mode : It disables many elements such as WiFi, Data Connection,Bluetooth,Location,etc. along with reducing the screen brightness to 0% and clearing the running apps in the background.
+ 2.) Ultra Mode : It only reduces the screen brightness and cleares the apps running in the background
+3.) Disable Network : It only disables the Data Connection,WiFi,Location and Bluetooth,etc. i.e. Networks
+
+
+
+
+
+*Note : Using the Power Saving Mode the user can increase the battery life till 40% without using any other applications."
+    tools:ignore="HardcodedText" />
+
+</LinearLayout>
